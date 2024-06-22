@@ -1,18 +1,19 @@
-## Getting Started
+# Banco Digital
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este repositório contém o código de um projeto de banco digital.
 
-## Folder Structure
+## Descrição
 
-The workspace contains two folders by default, where:
+O projeto consiste em um banco digital simplificado, onde foram implementadas funcionalidades básicas de criação de conta, gestão de saldo, transferências entre contas e consulta de extrato.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Estrutura do Projeto
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+O projeto está estruturado da seguinte forma:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- `src/`: Contém o código fonte do projeto.
+  - `Main.java`: Ponto de entrada da aplicação.
+  - `Conta.java`: Classe que representa uma conta no banco.
+  - `BancoDigital.java`: Classe principal que gerencia o funcionamento do banco digital.
+  - `Transacao.java`: Classe que define uma transação de crédito ou débito na conta.
+  - `Extrato.java`: Classe que permite consultar o extrato de transações de uma conta.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
